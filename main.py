@@ -9,7 +9,8 @@ import random
 import os
 os.environ["START_DATE"] = "2021-09-04"
 export CITY=Guangdong
-export BIRTHDAY=05-18
+import os
+os.environ["BIRTHDAY"] = "your_birthday_here"
 export APP_ID=wxef93e5418eed02a4
 export APP_SECRET=cea2184873f7e2d05080bebaaec0eb2f
 export USER_ID=ogh5L67BJwHb0nEacCUcQnIivfQ0
