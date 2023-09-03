@@ -6,7 +6,8 @@ import requests
 import os
 import random
 
-export START_DATE=2021-09-04
+import os
+os.environ["START_DATE"] = "2021-09-04"
 export CITY=Guangdong
 export BIRTHDAY=05-18
 export APP_ID=wxef93e5418eed02a4
